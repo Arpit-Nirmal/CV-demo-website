@@ -1,0 +1,87 @@
+/* Colors */
+:root {
+    --background-color: #101820; /* Dark navy blue */
+    --text-color: #fff; /* Bright white */
+    --primary-color: #EE4E34;
+    --secondary-color: #2ecc71;
+}
+
+/* Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Headings */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+/* Buttons */
+button, input[type="submit"], input[type="reset"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Forms */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Sections */
+.l-Section {
+    padding: 20px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Add styles for smaller screens here */
+}
